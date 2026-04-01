@@ -1,3 +1,13 @@
 
 # Local Python venv
 .venv/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Common generated outputs
+figures/
