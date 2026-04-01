@@ -21,10 +21,6 @@ The repository also includes `dataset/COSMOS_EDFA_Dataset`, which provides addit
 
 The ML Challenge has concluded. Submissions are closed.
 
-### Award
-
-The winner of the ML Challenge is invited to submit a paper to the IEEE/Optica *Journal of Optical Communications and Networking (JOCN)*.
-
 ### Final Results
 
 - **Final announcement date:** 03/16/2026
