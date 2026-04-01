@@ -45,6 +45,10 @@ The score is computed on loaded channels only. It combines the mean absolute err
 | SIL  | 0.121167 | 0.070625 | 0.124217 | 0.121183 | 3          |
 | NU   | 0.116429 | 0.072435 | 0.313027 | 0.240763 | 4          |
 
+### Live Competition Data
+
+`Live-Competition-Data/` contains the archived measurement data used for the final live competition evaluation after the challenge closed.
+
 ### Winning Solution
 
 - **Winning team:** SJTU (Shanghai Jiao Tong University)
@@ -117,6 +121,9 @@ The feature extraction notebook imports `libs.edfa_feature_extraction_libs` and 
 │       ├── aging/{features,labels}/*.csv
 │       ├── shb/{features,labels}/*.csv
 │       └── unseen/{features,labels}/*.csv
+├── Live-Competition-Data
+│   └── COSMOS
+│       └── TestGround/...
 ├── figures
 ├── manual
 │   └── Ranges_ProductGuide_ROADM.pdf
@@ -131,6 +138,7 @@ Notes:
 - `Features/Test/test_features.csv` contains the combined features for the label-hidden test set.
 - `Features/TestGround/test_features.csv` and `Features/TestGround/test_labels.csv` contain the combined feature and label tables for the ground-truth test set.
 - `Features/TestGround/example_submission.csv` is a Kaggle-style label file derived from `Features/TestGround/test_labels.csv`.
+- `Live-Competition-Data/COSMOS/TestGround` contains the archived data used for the final live competition evaluation.
 - `dataset/COSMOS_EDFA_Dataset` and the corresponding `COSMOS_*.csv` files are optional.
 
 ---
