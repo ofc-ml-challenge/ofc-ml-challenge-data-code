@@ -11,3 +11,6 @@ __pycache__/
 
 # Common generated outputs
 figures/
+
+# Local Codex metadata
+.codex
